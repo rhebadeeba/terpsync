@@ -1,0 +1,22 @@
+{
+  "name": "terpsync",
+  "version": "1.0.0",
+  "description": "technica project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhebadeeba/terpsync.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhebadeeba/terpsync/issues"
+  },
+  "homepage": "https://github.com/rhebadeeba/terpsync#readme"
+}
