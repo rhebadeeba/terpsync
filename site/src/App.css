@@ -1,9 +1,19 @@
-html,body{
+html, body {
     height: 100%;
     margin: 0;
-    overflow: hidden;
-}
-
-#root{
-    background-image: url('./assets/raccoon_awesome.jpg');
-}
+    overflow: hidden; 
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  .btn {
+    background-color: #ad8383;
+  }
