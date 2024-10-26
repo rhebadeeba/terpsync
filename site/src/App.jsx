@@ -11,7 +11,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Heyo! welcome Frontend web development Workshop in React :D
+          we are so amazing
         </p>
       </div>
     </>
