@@ -3,7 +3,6 @@ import './Home.css'
 import EventsList from './components/EventsList.jsx'
 
 function Home ()  {
-
     return (
         <>
                 <div style = {{display:"inline-block}}"}}>
@@ -13,7 +12,7 @@ function Home ()  {
                     style={{display: "inline-block", width: "100px", height: "auto"}}
                     />
                 </div>
-                <div style = {{fontweight:"bold",fontSize:"110%"}}>
+                <div style = {{fontWeight:"bold",fontSize:"110%"}}>
                     This is the Home Page
                 </div>
                 <p>

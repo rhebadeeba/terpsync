@@ -22,8 +22,8 @@ html, body {
   }
 
   body{
-    /*background-image : url('./src/assets/raccoon_awesome.jpg');*/
+    background-image : url('./src/assets/raccoon_awesome.jpg');
   }
   .btn {
-    background-color: #ad8383;
+    background-color: #fff1d0;
   }
