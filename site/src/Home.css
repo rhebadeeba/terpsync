@@ -28,3 +28,18 @@ html, body {
   .btn {
     background-color: #fdd0ff;
   }
+
+  .events {
+    display: flex;
+    flex-direction: row; /* Horizontal layout for events */
+    gap: 1rem;           /* Space between event items */
+    padding: 1rem;
+    justify-content: center;
+  }
+  
+  .events-list{
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+  }
