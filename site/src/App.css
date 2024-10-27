@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     overflow: hidden; 
+    font-family: 'Courier New', Courier, monospace;
   }
   
   #root {
@@ -16,7 +17,7 @@ html, body {
 
   body{
     /* background-image : url('./src/assets/flop.jpg'); */
-    font-family: 'Roboto', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   .btn {
     background-color: #fff1d0;
