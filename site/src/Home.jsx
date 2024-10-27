@@ -18,6 +18,7 @@ function Home ()  {
                 <div style = {{fontWeight:"bold",fontSize:"150%"}}>
                     See events below
                 </div>
+                <br />
             <EventsList />
         </>
     );
