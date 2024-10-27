@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; 
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+
+  body{
+    /*background-image : url('./src/assets/raccoon_awesome.jpg');*/
+  }
+  .btn {
+    background-color: #ad8383;
+  }
