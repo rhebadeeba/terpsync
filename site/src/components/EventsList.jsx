@@ -38,7 +38,7 @@ export default function EventsList() {
 
   return (
       <div className="events-list">
-          <h1 style={{ fontSize: '25px' }}>Events</h1>
+          <h1 className = "title" style={{ fontSize: '25px' }}>Events</h1>
 
           {/* Dropdown for selecting tags */}
           <div className="tag-filter">
