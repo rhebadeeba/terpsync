@@ -1,0 +1,16 @@
+.events-list {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+  
+.event-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #b8000c;
+    border-radius: 5px;
+    background-color: #fff1d0;
+}
+  
+.event-title {
+    margin: 0;
+}
