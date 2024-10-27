@@ -1,8 +1,9 @@
 import React from 'react'
 import './Home.css'
+//import { Link } from 'react-router-dom';
+//import Schedule from './Schedule';
 
 function Home ()  {
-
     return (
         <>
                 <div style = {{display:"inline-block}}"}}>
@@ -12,7 +13,7 @@ function Home ()  {
                     style={{display: "inline-block", width: "100px", height: "auto"}}
                     />
                 </div>
-                <div style = {{fontweight:"bold",fontSize:"110%"}}>
+                <div style = {{fontWeight:"bold",fontSize:"110%"}}>
                     This is the Home Page
                 </div>
                 <p>
