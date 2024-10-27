@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import EventsList from './components/EventsList.jsx'
 
 function Home ()  {
 
@@ -18,6 +19,7 @@ function Home ()  {
                 <p>
                     Welcome to your new page!
                 </p>
+            <EventsList />
         </>
     );
 };
