@@ -23,4 +23,4 @@ const getEvents = (callback) => {
   });
 };
 
-export { con, getEvents };
+export { con , getEvents};

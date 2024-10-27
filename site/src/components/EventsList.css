@@ -2,6 +2,17 @@
     padding: 20px;
     background-color: #f9f9f9;
 }
+
+.tag-filter {
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+}
+
+#tag-select {
+    background-color: #c1e5ed;
+    
+}
   
 .event-item {
     margin-bottom: 15px;
