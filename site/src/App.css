@@ -12,11 +12,10 @@ html, body {
     height: 100vh; 
     margin: 0 auto;
     text-align: center;
-    
   }
 
   body{
-    background-image : url('./src/assets/raccoon_awesome.jpg');
+    background-image : url('./src/assets/flop.jpg');
   }
   .btn {
     background-color: #fff1d0;
