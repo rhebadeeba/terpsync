@@ -1,7 +1,6 @@
 import React from 'react'
 import './Home.css'
-//import { Link } from 'react-router-dom';
-//import Schedule from './Schedule';
+import EventsList from './components/EventsList.jsx'
 
 function Home ()  {
     return (
@@ -19,6 +18,7 @@ function Home ()  {
                 <p>
                     Welcome to your new page!
                 </p>
+            <EventsList />
         </>
     );
 };
