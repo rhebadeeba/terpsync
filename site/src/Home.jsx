@@ -13,11 +13,11 @@ function Home ()  {
                     />
                 </div>
                 <div style = {{fontWeight:"bold",fontSize:"110%"}}>
-                    This is the Home Page
+                    Welcome to TerpSync
                 </div>
-                <p>
-                    Welcome to your new page!
-                </p>
+                <div style = {{fontWeight:"bold",fontSize:"110%"}}>
+                    Please select your events
+                </div>
             <EventsList />
         </>
     );

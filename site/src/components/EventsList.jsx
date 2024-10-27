@@ -33,12 +33,12 @@ export default function EventsList() {
   
     return (
       <div className="events-list">
-        <h1>Events</h1>
+        <h1 style={{ fontSize: '25px' }}>Events</h1>
         <ul>
           {events.length > 0 ? (
             events.map(event => (
               <li key={event.id} className="event-item">
-                <h2 className="event-title">{event.name}</h2>
+                <h2 style = {{ fontSize: '20px' }} className="event-title">{event.name}</h2>
                 <p>{event.description}</p>
                 <p>Date: {event.date}</p>
                 <p>Location: {event.location}</p>
