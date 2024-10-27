@@ -23,29 +23,34 @@ const mockEvents = [
   }
 ];
 
-const EventsList = () => {
-  return (
-    <div>
-      <h1>Events</h1>
-      <ul>
-        {mockEvents.length > 0 ? (
-          mockEvents.map(event => (
-            <li key={event.id}>
-              <h2>{event.name}</h2>
-              <p>{event.description}</p>
-              <p>Date: {event.date}</p>
-              <p>Location: {event.location}</p>
-              <p>Time: {event.time}</p>
-              <p>Club: {event.club}</p>
-              <p>Tags: {event.tags}</p>
-            </li>
-          ))
-        ) : (
-          <p>No events available.</p>
-        )}
-      </ul>
-    </div>
-  );
-};
+// export default function EventsList() {
+//     const [events, setEvents] = useState([]);
+  
+//     useEffect(() => {
+//       setEvents(mockEvents);
+//     }, []);
+  
+//     return (
+//       <div className="events-list">
+//         <h1>Events</h1>
+//         <ul>
+//           {events.length > 0 ? (
+//             events.map(event => (
+//               <li key={event.id} className="event-item">
+//                 <h2 className="event-title">{event.name}</h2>
+//                 <p>{event.description}</p>
+//                 <p>Date: {event.date}</p>
+//                 <p>Location: {event.location}</p>
+//                 <p>Time: {event.time}</p>
+//                 <p>Club: {event.club}</p>
+//                 <p>Tags: {event.tags}</p>
+//               </li>
+//             ))
+//           ) : (
+//             <p>No events available.</p>
+//           )}
+//         </ul>
+//       </div>
+//     );
+// }
 
-export default EventsList;
