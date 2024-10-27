@@ -15,7 +15,7 @@ html, body {
   }
 
   body{
-    background-image : url('./src/assets/flop.jpg');
+    /* background-image : url('./src/assets/flop.jpg'); */
   }
   .btn {
     background-color: #fff1d0;

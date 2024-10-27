@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 10;
   box-sizing: border-box;
 }
 
@@ -28,18 +28,3 @@ html, body {
   .btn {
     background-color: #fdd0ff;
   }
-
-  /* .events {
-    display: flex;
-    flex-direction: row; 
-    gap: 1rem; 
-    padding: 1rem;
-    justify-content: center;
-  }
-  
-  .events-list{
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 1rem;
-  } */

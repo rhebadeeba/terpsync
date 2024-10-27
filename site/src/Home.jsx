@@ -12,11 +12,11 @@ function Home ()  {
                     style={{display: "inline-block", width: "100px", height: "auto"}}
                     />
                 </div>
-                <div style = {{fontWeight:"bold",fontSize:"110%"}}>
+                <div style = {{fontWeight:"bold",fontSize:"160%"}}>
                     Welcome to TerpSync!
                 </div>
-                <div style = {{fontWeight:"bold",fontSize:"110%"}}>
-                    Please select your events
+                <div style = {{fontWeight:"bold",fontSize:"150%"}}>
+                    See events below
                 </div>
             <EventsList />
         </>
